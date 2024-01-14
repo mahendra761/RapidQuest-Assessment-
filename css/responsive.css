@@ -1,0 +1,221 @@
+@media screen and (max-width: 600px) {
+
+    .bottom-con {
+        display: inline;
+    }
+
+    .aside-con {
+        display: none;
+
+    }
+
+    .nav-icons1 {
+        display: none;
+    }
+
+    .main-se {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .bottom-con {
+        width: 100%;
+    }
+
+    .bottom-items {
+        width: 90%;
+    }
+
+    /* profile sec */
+    .profile-items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .profile-con {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        background-color: #fff;
+    }
+
+    .profile-item2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .profile-item1>img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .profile-item2>h1 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    .profile-item2>h2 {
+        font-size: 35px;
+    }
+
+    .profile-sp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 20px;
+    }
+
+    .pro-btn {
+        margin-top: 30px;
+    }
+
+    .pro-btn>a {
+        padding: 15px 100px;
+    }
+
+    .profile-item3 {
+        margin-top: 80px;
+    }
+
+    .profile-item3>h1 {
+        font-size: 30px;
+    }
+
+    .withd1>h2 {
+        font-size: 20px;
+    }
+
+    .mygoal {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .my-goaln {
+        width: 100%;
+        display: flex;
+        gap: 80px;
+        margin-top: 20px;
+    }
+
+    .my-goalnew {
+        width: 100%;
+    }
+
+    .mygoal-1>h1 {
+        font-size: 30px;
+    }
+
+    .retire {
+        margin-top: 500px;
+        width: 100%;
+
+    }
+
+    .contribution span {
+        padding-left: 60px;
+    }
+
+    .retire-con {
+        width: 100%;
+    }
+
+    .peers-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .progress-man {
+        margin-top: 30px;
+    }
+
+    .end-btn {
+        width: 100%;
+    }
+
+    .end-btn>a {
+        padding: 15px 120px;
+    }
+
+    /* chart sec */
+    .chart-con {
+        width: 100%;
+    }
+
+    .chart-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 40px;
+    }
+
+    .chart-j {
+        width: 370px;
+        height: 250px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .chart-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .chart-1>h3 {
+        font-size: 20px;
+        line-height: 5px;
+    }
+
+    .fa-solid {
+        font-size: 30px;
+    }
+
+    .bottom-con {
+        height: 8vh;
+
+    }
+
+    .bottom-items {
+        margin-left: 20px;
+    }
+
+    #peersh {
+        font-size: 30px;
+    }
+
+    /*progress bar  */
+    .progress-man {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+
+    }
+
+    .progress-bar2 {
+        width: 95px;
+        height: 95px;
+    }
+}
+
+/* end media quries */

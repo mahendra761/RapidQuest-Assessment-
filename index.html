@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo assisment </title>
+    <!-- style.css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="/css/responsive.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Aos  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="/css/responsive.css">
+    <!-- chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <!-- side section -->
+    <div class="aside-con">
+        <div class="aside-items">
+            <div>
+                <div class="nav-icons1">
+                    <a href="#"><i class="fa-solid fa-bomb" style="color: #666666;"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #666666;"></i></a>
+                </div>
+                <div class="nav-icons2">
+                    <a href="#"><i class="fa-solid fa-house" id="nav-home"></i></a>
+                    <a href="#"><i class="fa-solid fa-list" style="color: #666666;"></i></a>
+                    <a href="#"><i class="fa-solid fa-note-sticky" style="color: #666666;"></i></a>
+                    <a href="#"><i class="fa-solid fa-user" style="color: #666666;"></i></a>
+                </div>
+            </div>
+            <div class="nav-icons3">
+                <a href="#"><i class="fa-regular fa-bell" style="color: #01060e;"></i></a>
+                <a href="#"><i class="fa-solid fa-arrow-right-from-bracket" style="color: #666666;"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- side section end -->
+
+    <!-- profile sec -->
+    <section style="display: flex;" class="main-se">
+        <div class="profile-con" id="home">
+            <div class="profile-items">
+                <div class="profile-item1">
+                    <img src="/Assets/review2.png" alt="">
+                    <div class="pro-i">
+                        <h1>Hi,Mike,</h1>
+                        <h3>Welcome Back</h3>
+                    </div>
+                </div>
+                <div class="profile-item2">
+
+                    <h2>Today</h2>
+                    <h1>$19,892</h1>
+                    <span>Account Balance</span>
+                    <div class="profile-sp">
+                        <div>
+                            <h2>$4,000</h2>
+                            <span>year-to-Date </span>
+                        </div>
+                        <div>
+                            <h2>$1,892</h2>
+                            <span>Total Interest</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="pro-btn">
+                        <a href="">I want to &nbsp;&nbsp;<i class="fa-solid fa-caret-down"
+                                style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+                <div class="profile-item3">
+
+                    <h1>Recent Transactions</h1>
+                    <div class="withdrawal-sec">
+                        <div class="withd1">
+                            <span>2020-08-07</span>
+                            <h2>Withdrawal Transfer to Bank-XXX11</h2>
+                        </div>
+                        <div class="withd1">
+                            <span>2020-07-21</span>
+                            <h2>Withdrawal Transfer to Bank-XXX11</h2>
+                        </div>
+                        <div class="withd1">
+                            <span>2020-07-16</span>
+                            <h2>Withdrawal Transfer to Bank-XXX11</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- profile section end -->
+
+
+        <!-- chart section -->
+
+        <div class="chart-con" id="retire">
+            <div class="chart-main">
+                <div class="chart-top">
+                    <div class="income-sec">
+                        <h4>Retirement Income</h4>
+                        <h1>Starting Year 2056</h1>
+                    </div>
+                    <div class="mygoal">
+                        <div class="my-goalnew">
+                            <div class="mygoal-1">
+                                <h1>$300,000</h1>
+                                <span>My Goal</span>
+                            </div>
+                        </div>
+                        <div class="my-goaln">
+                            <div class="mygoal-1">
+                                <h1>59%</h1>
+                                <span>Goal Achieved</span>
+                            </div>
+                            <div class="mygoal-1">
+                                <h1>$300</h1>
+                                <span>Est Monthly Income</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- charts -->
+                <div class="charts-h">
+                    <h1>Contributions Overtime</h1>
+                    <div class="chart-m">
+                        <div class="chart-1">
+                            <h2>2</h2>
+                            <span>Employer:</span>
+                            <h3>K&nbsp; 73,500</h3>
+                        </div>
+                        <div class="chart-1">
+                            <h4>2</h4>
+                            <span>Employee:</span>
+                            <h3>K&nbsp; 52,500</h3>
+                        </div>
+                        <div class="chart-1">
+                            <h5>.</h5>
+                            <span>Total Interest:</span>
+                            <h3>K&nbsp; 244,313</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- charts sec -->
+                <div class="chart-j">
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="peers">
+                    <h1 style="font-size: 20px;" id="peersh">How DO I Compare TO my peers?</h1>
+                    <span>These numbers represent current goal achievement</span>
+                    <div class="peers-sec">
+                        <div class="age-sec1">
+                            <div class="age-sec">
+                                <label for="Age"><b>Age:</b>Under</label>
+                                <select name="" id="Age" style="border: none; outline: none;">
+                                    <option value="0">30</option>
+                                    <option value="1">29</option>
+                                    <option value="2">28</option>
+                                    <option value="3">27</option>
+                                    <option value="4">26</option>
+                                    <option value="5">25</option>
+                                    <option value="6">24</option>
+                                    <option value="7">25</option>
+                                </select>
+                            </div>
+                            <div class="age-sec">
+                                <label for="Salary"><b>Salary:</b>K20 -K</label>
+
+                                <select name="" id="Salary" style="border: none; outline: none;">
+                                    <option value="0">30</option>
+                                    <option value="1">29</option>
+                                    <option value="2">28</option>
+                                    <option value="3">27</option>
+                                    <option value="4">26</option>
+                                    <option value="5">25</option>
+                                    <option value="6">24</option>
+                                    <option value="7">25</option>
+                                </select>
+                            </div>
+                            <div class="age-sec">
+                                <label for="Gender"><b>Gender:</b></label>
+
+                                <select id="Gender" style="border: none; outline: none;">
+                                    <option value="Male" style="padding: 0;"><b>Male</b></option>
+                                    <option value="Female" style="padding: 0;">Female</option>
+
+                                </select>
+                                <!-- <h4>Gender:</h4>
+                                <select name="Gender" id="Gender" style="border: none; outline: none; ">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                              </select> -->
+                            </div>
+                        </div>
+
+                        <!-- progress bar -->
+                        <div class="progress-man">
+                            <div class="pro-1">
+                                <div class="progress-bar">
+                                    <progress value="78" min="0" max="100"
+                                        style="visibility:hidden;height:0;width:0;">78%</progress>
+                                </div>
+                                <div class="pro-1">
+                                    <div class="progress-bar2">
+                                        <progress value="95" min="0" max="100"
+                                            style="visibility:hidden;height:0;width:0;">95%</progress>
+                                    </div>
+                                    <div class="pro-1">
+                                        <div class="progress-bar3">
+                                            <progress value="59" min="0" max="100"
+                                                style="visibility:hidden;height:0;width:0;">59%</progress>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- chart section end -->
+
+        <!-- Retirement strategy -->
+        <!-- <section> -->
+        <div class="retire" id="agelist">
+            <div class="retire-con">
+                <h1>Retirement Strategy</h1>
+                <div class="employee1">
+
+                    <label for="">Employee Contribution</label>
+                    <div class="slider">
+                        <input type="range" min="0" max="100" value="12"
+                            oninput="rangeValue1.innerText = this.value +'%'">
+                        <p id="rangeValue1">12%</p>
+                    </div>
+
+                </div>
+                <div class="employee2">
+
+                    <label for="">Retirement Age</label>
+                    <div class="slider">
+                        <input type="range" min="0" max="100" value="65" oninput="rangeValue2.innerText = this.value">
+                        <p id="rangeValue2">65</p>
+                    </div>
+
+                </div>
+                <div class="contribution">
+                    <h2>Employer Contribution <span>8.4%</span></h2>
+                    <h2>Interest Rate <span style="padding-left: 150px;">5%</span></h2>
+                </div>
+                <div class="end-btn">
+                    <a href="">Update</a>
+                </div>
+                <div class="help-s">
+                    <a href="">View Help Docs > </a>
+                </div>
+            </div>
+            <div class="end-con">
+                <h4>Are You Considering a</h4>
+                <span>Housing Advance?</span>
+                <p>Limited time reduced interest</p>
+                <div class="learn-btn">
+                    <a href="">Learn More > </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- </section> -->
+    </section>
+    <div class="bottom-con">
+        <div class="bottom-items">
+            <div>
+                <!-- <div class="bottom-icons1">
+                    <a href="#"><i class="fa-solid fa-bomb" style="color: #666666;"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #666666;"></i></a>
+                </div> -->
+                <div class="bottom-icons2">
+                    <a href="#home"><i class="fa-solid fa-house" id="bottom-home"></i></a>
+                    <a href="#retire"><i class="fa-solid fa-list" style="color: #666666;"></i></a>
+                    <a href="#agelist"><i class="fa-solid fa-note-sticky" style="color: #666666;"></i></a>
+                    <a href="#"><i class="fa-solid fa-user" style="color: #666666;"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #666666;"></i></a>
+
+                </div>
+            </div>
+            <!-- <div class="bottm-icons3">
+                <a href="#"><i class="fa-regular fa-bell" style="color: #01060e;"></i></a>
+                <a href="#"><i class="fa-solid fa-arrow-right-from-bracket" style="color: #666666;"></i></a>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="/main.js/Chart.js"></script>
+
+
+</body>
+
+</html>
