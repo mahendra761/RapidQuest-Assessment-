@@ -14,14 +14,18 @@
     }
 
     .main-se {
-        position: relative;
+       
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
 
     }
+.progress-bar2,.progress-bar3,.progress-bar{
+    width: 80px;
+    height: 80px;
 
+}
     .bottom-con {
         width: 100%;
     }
@@ -37,14 +41,21 @@
         align-items: flex-start;
         justify-content: flex-start;
         width: 100%;
-        margin-top: 40px;
-        padding: 0;
+        margin-top: 10px;
+        padding-left: 0;
     }
 
     .profile-con {
         width: 100%;
         height: 100%;
-        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* padding: 10px; */
+        margin-left: 0;
+        padding-left:30px;
+        
         background-color: #fff;
     }
 
@@ -84,7 +95,11 @@
     }
 
     .pro-btn>a {
-        padding: 15px 100px;
+        padding: 15px 80px;
+    }
+    
+    .profile-item3{
+        width: 100%;
     }
 
     .profile-item3 {
@@ -92,11 +107,11 @@
     }
 
     .profile-item3>h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .withd1>h2 {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .mygoal {
@@ -104,6 +119,8 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        gap: 0;
+        
     }
 
     .my-goaln {
@@ -112,6 +129,7 @@
         gap: 80px;
         margin-top: 20px;
     }
+   
 
     .my-goalnew {
         width: 100%;
@@ -122,9 +140,20 @@
     }
 
     .retire {
-        margin-top: 500px;
-        width: 100%;
+        margin-top: 550px;
+       max-width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
+    }
+    .retire-con{
+        padding: 0;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
     .contribution span {
@@ -168,10 +197,10 @@
     }
 
     .chart-j {
-        width: 370px;
+        width: 340px;
         height: 250px;
         margin-top: 30px;
-        margin-left: 40px;
+        margin-left: 10px;
     }
 
     .chart-1 {
@@ -212,10 +241,7 @@
 
     }
 
-    .progress-bar2 {
-        width: 95px;
-        height: 95px;
-    }
+   
 }
 
 /* end media quries */
